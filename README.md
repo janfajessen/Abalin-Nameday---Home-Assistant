@@ -127,7 +127,7 @@ automation:
       - condition: template
         value_template: "{{ states('sensor.nameday_spain_today') not in ['', 'unavailable', 'unknown'] }}"
     action:
-      - service: notify.mobile_app
+      - action: notify.mobile_app
         data:
           title: "🎉 Name Day Today!"
           message: >
@@ -144,7 +144,7 @@ automation:
       - platform: time
         at: "09:00:00"
     action:
-      - service: tts.speak
+      - action: tts.speak
         data:
           media_player_entity_id: media_player.living_room
           message: >
@@ -161,7 +161,7 @@ automation:
       - platform: time
         at: "00:01:00"
     action:
-      - service: persistent_notification.create
+      - action: persistent_notification.create
         data:
           title: "🗓️ Name Day"
           message: >
@@ -179,7 +179,7 @@ automation:
       - platform: time
         at: "07:30:00"
     action:
-      - service: notify.mobile_app
+      - action: notify.mobile_app
         data:
           title: "🌍 Name Days Today"
           message: >
@@ -243,13 +243,13 @@ The service returns data directly — find it under **Developer Tools → Servic
 
 ```yaml
 action:
-  - service: abalin_nameday.get_nameday_for_date
+  - action: abalin_nameday.get_nameday_for_date
     data:
       day: 25
       month: 7
       country: es
     response_variable: result
-  - service: notify.mobile_app
+  - action: notify.mobile_app
     data:
       message: "Names for July 25th in Spain: {{ result.names }}"
 ```
