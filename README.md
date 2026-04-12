@@ -39,22 +39,18 @@ Name days are a wonderful tradition across much of Europe and beyond — a secon
 
 ## 🌍 Supported countries
 
-<sub>
-
-| Flag | Country | Code | Flag | Country | Code |
-|------|---------|------|------|---------|------|
-| 🇦🇹 | Austria | `at` | 🇱🇹 | Lithuania | `lt` |
-| 🇧🇬 | Bulgaria | `bg` | 🇵🇱 | Poland | `pl` |
-| 🇭🇷 | Croatia | `hr` | 🇷🇺 | Russia | `ru` |
-| 🇨🇿 | CzechRepublic | `cz` | 🇸🇰 | Slovakia | `sk` |
-| 🇩🇰 | Denmark | `dk` | 🇪🇸 | Spain | `es` |
-| 🇪🇪 | Estonia | `ee` | 🇸🇪 | Sweden | `se` |
-| 🇫🇮 | Finland | `fi` | 🇺🇸 | UnitedStates | `us` |
-| 🇫🇷 | France | `fr` | 🇩🇪 | Germany | `de` |
-| 🇬🇷 | Greece | `gr` | 🇭🇺 | Hungary | `hu` |
-| 🇮🇹 | Italy | `it` | 🇱🇻 | Latvia | `lv` |
-
-</sub>
+| <sub>Country</sub> | <sub>Code</sub> | <sub>Country</sub> | <sub>Code</sub> |
+|---|---|---|---|
+| <sub>🇦🇹 Österreich</sub> | <sub>`at`</sub> | <sub>🇱🇹 Lietuva</sub> | <sub>`lt`</sub> |
+| <sub>🇧🇬 България</sub> | <sub>`bg`</sub> | <sub>🇵🇱 Polska</sub> | <sub>`pl`</sub> |
+| <sub>🇭🇷 Hrvatska</sub> | <sub>`hr`</sub> | <sub>🇷🇺 Россия</sub> | <sub>`ru`</sub> |
+| <sub>🇨🇿 Česká republika</sub> | <sub>`cz`</sub> | <sub>🇸🇰 Slovensko</sub> | <sub>`sk`</sub> |
+| <sub>🇩🇰 Danmark</sub> | <sub>`dk`</sub> | <sub>🇪🇸 España/Espanya/Espainia</sub> | <sub>`es`</sub> |
+| <sub>🇪🇪 Eesti</sub> | <sub>`ee`</sub> | <sub>🇸🇪 Sverige</sub> | <sub>`se`</sub> |
+| <sub>🇫🇮 Suomi / Finland</sub> | <sub>`fi`</sub> | <sub>🇺🇸 United States</sub> | <sub>`us`</sub> |
+| <sub>🇫🇷 France</sub> | <sub>`fr`</sub> | <sub>🇩🇪 Deutschland</sub> | <sub>`de`</sub> |
+| <sub>🇬🇷 Ελλάδα</sub> | <sub>`gr`</sub> | <sub>🇭🇺 Magyarország</sub> | <sub>`hu`</sub> |
+| <sub>🇮🇹 Italia</sub> | <sub>`it`</sub> | <sub>🇱🇻 Latvija</sub> | <sub>`lv`</sub> |
 
 ---
 
@@ -106,14 +102,12 @@ Repeat to add multiple countries simultaneously.
 
 For each configured country, two sensors are created and grouped under a single device:
 
-<sub>
+| <sub>Entity</sub> | <sub>Example ID</sub> | <sub>Description</sub> | <sub>Icon</sub> |
+|---|---|---|---|
+| <sub>Today's name day</sub> | <sub>`sensor.nameday_spain_today`</sub> | <sub>Names celebrated today</sub> | <sub>`mdi:account-star`</sub> |
+| <sub>Tomorrow's name day</sub> | <sub>`sensor.nameday_spain_tomorrow`</sub> | <sub>Names celebrated tomorrow</sub> | <sub>`mdi:account-clock`</sub> |
 
-| Entity | Example ID | Description | Icon |
-|--------|-----------|-------------|------|
-| Today's name day | `sensor.nameday_spain_today` | Names celebrated today | `mdi:account-star` |
-| Tomorrow's name day | `sensor.nameday_spain_tomorrow` | Names celebrated tomorrow | `mdi:account-clock` |
 
-</sub>
 
 Each sensor also exposes `country` and `timezone` as state attributes.
 
@@ -204,6 +198,60 @@ content: >
   |--|--|--|
   | 🇪🇸 | {{ states('sensor.nameday_spain_today') }} | {{ states('sensor.nameday_spain_tomorrow') }} |
   | 🇫🇷 | {{ states('sensor.nameday_france_today') }} | {{ states('sensor.nameday_france_tomorrow') }} |
+```
+## 🔍 Service: query any date
+
+Beyond the daily sensors, this integration provides a service that lets you query name days for **any date of the year** — useful for finding the perfect name for a pet, a baby, or just satisfying your curiosity.
+
+### `abalin_nameday.get_nameday_for_date`
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `day` | ✅ | Day of the month (1–31) |
+| `month` | ✅ | Month number (1–12) |
+| `country` | ☑️ optional | Country code (e.g. `es`). Omit to get all 20 countries at once. |
+
+The service returns data directly — find it under **Developer Tools → Services** in your HA interface.
+
+**Single country response** (e.g. Spain, July 25th):
+```json
+{
+  "day": 25,
+  "month": 7,
+  "country": "es",
+  "country_name": "Spain",
+  "names": "Santiago, Jaime"
+}
+```
+
+**All countries response** (no country specified):
+```json
+{
+  "day": 25,
+  "month": 7,
+  "namedays": {
+    "es": "Santiago, Jaime",
+    "fr": "Jacques",
+    "de": "Jakob",
+    "it": "Giacomo",
+    "pl": "Jakub"
+  }
+}
+```
+
+### Use in automations
+
+```yaml
+action:
+  - service: abalin_nameday.get_nameday_for_date
+    data:
+      day: 25
+      month: 7
+      country: es
+    response_variable: result
+  - service: notify.mobile_app
+    data:
+      message: "Names for July 25th in Spain: {{ result.names }}"
 ```
 
 ---
