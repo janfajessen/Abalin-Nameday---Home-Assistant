@@ -2,10 +2,10 @@
 
 # 🗓️ Abalin Name Day <br> Home Assistant Integration
 
-<img src="brands/icon@2x.png" width="450"/>
+<img src="brands/icon@2x.png" width="150"/>
 
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-2.1.0-blue?style=for-the-badge)
 ![HA](https://img.shields.io/badge/Home%20Assistant-2024.3+-orange?style=for-the-badge&logo=home-assistant)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python)
@@ -46,10 +46,10 @@ Name days are a wonderful tradition across much of Europe and beyond — a secon
 | 🇦🇹 | Austria | `at` | 🇱🇹 | Lithuania | `lt` |
 | 🇧🇬 | Bulgaria | `bg` | 🇵🇱 | Poland | `pl` |
 | 🇭🇷 | Croatia | `hr` | 🇷🇺 | Russia | `ru` |
-| 🇨🇿 | Czech Republic | `cz` | 🇸🇰 | Slovakia | `sk` |
+| 🇨🇿 | CzechRepublic | `cz` | 🇸🇰 | Slovakia | `sk` |
 | 🇩🇰 | Denmark | `dk` | 🇪🇸 | Spain | `es` |
 | 🇪🇪 | Estonia | `ee` | 🇸🇪 | Sweden | `se` |
-| 🇫🇮 | Finland | `fi` | 🇺🇸 | United States | `us` |
+| 🇫🇮 | Finland | `fi` | 🇺🇸 | UnitedStates | `us` |
 | 🇫🇷 | France | `fr` | 🇩🇪 | Germany | `de` |
 | 🇬🇷 | Greece | `gr` | 🇭🇺 | Hungary | `hu` |
 | 🇮🇹 | Italy | `it` | 🇱🇻 | Latvia | `lv` |
@@ -58,9 +58,6 @@ Name days are a wonderful tradition across much of Europe and beyond — a secon
 
 ---
 
-## 📸 Screenshot
-
-![Sensor screenshot](https://raw.githubusercontent.com/viktak/ha-cc-abalin-nameday/main/images/abalin-nameday-sample-screenshot.png)
 
 ---
 
@@ -84,6 +81,8 @@ Name days are a wonderful tradition across much of Europe and beyond — a secon
 2. Add this repository URL, category: **Integration**
 3. Install **Abalin Name Day**
 4. Restart Home Assistant
+
+<img src="brands/icon.png" width="50"/>
 
 ### Manual
 
