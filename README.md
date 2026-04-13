@@ -43,7 +43,7 @@ Name days are a wonderful tradition across much of Europe and beyond — a secon
 |---|---|---|---|
 | <sub>🇦🇹 Österreich</sub> | <sub>`at`</sub> | <sub>🇱🇹 Lietuva</sub> | <sub>`lt`</sub> |
 | <sub>🇧🇬 България</sub> | <sub>`bg`</sub> | <sub>🇵🇱 Polska</sub> | <sub>`pl`</sub> |
-| <sub>🇭🇷 Hrvatska</sub> | <sub>`hr`</sub> | <sub>🇷🇺 Россия</sub> | <sub>`ru`</sub> |
+| <sub>🇭🇷 Hrvatska</sub> | <sub>`hr`</sub> | <sub></sub> | <sub></sub> |
 | <sub>🇨🇿 Česká republika</sub> | <sub>`cz`</sub> | <sub>🇸🇰 Slovensko</sub> | <sub>`sk`</sub> |
 | <sub>🇩🇰 Danmark</sub> | <sub>`dk`</sub> | <sub>🇪🇸 España/Espanya/Espainia</sub> | <sub>`es`</sub> |
 | <sub>🇪🇪 Eesti</sub> | <sub>`ee`</sub> | <sub>🇸🇪 Sverige</sub> | <sub>`se`</sub> |
@@ -209,7 +209,7 @@ Beyond the daily sensors, this integration provides a service that lets you quer
 |-------|----------|-------------|
 | `day` | ✅ | Day of the month (1–31) |
 | `month` | ✅ | Month number (1–12) |
-| `country` | ☑️ optional | Country code (e.g. `es`). Omit to get all 20 countries at once. |
+| `country` | ☑️ optional | Country code (e.g. `es`). Omit to get all 19 countries at once. |
 
 The service returns data directly — find it under **Developer Tools → Services** in your HA interface.
 
