@@ -2,15 +2,15 @@
   "config": {
     "step": {
       "user": {
-        "title": "Postavi imendane",
-        "description": "Odaberite državu čije imendane želite pratiti. Vremenska zona automatski se preuzima iz Home Assistant konfiguracije.",
+        "title": "Postavi imendan",
+        "description": "Odaberite zemlju čiji imendan želite pratiti. Vremenska zona se automatski preuzima iz vaše Home Assistant konfiguracije.",
         "data": {
-          "country": "Država"
+          "country": "Zemlja"
         }
       }
     },
     "abort": {
-      "already_configured": "Ova država je već konfigurirana."
+      "already_configured": "Ova zemlja je već konfigurirana."
     }
   },
   "entity": {
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Austrija",
-        "bg": "Bugarska",
-        "hr": "Hrvatska",
-        "cz": "Češka",
-        "dk": "Danska",
-        "ee": "Estonija",
-        "fi": "Finska",
-        "fr": "Francuska",
-        "de": "Njemačka",
-        "gr": "Grčka",
-        "hu": "Mađarska",
-        "it": "Italija",
-        "lv": "Latvija",
-        "lt": "Litva",
-        "pl": "Poljska",
-        "ru": "Rusija",
-        "sk": "Slovačka",
-        "es": "Španjolska",
-        "se": "Švedska",
-        "us": "Sjedinjene Američke Države"
+        "at": "🇦🇹Austrija",
+        "bg": "🇧🇬Bugarska",
+        "hr": "🇭🇷Hrvatska",
+        "cz": "🇨🇿Češka",
+        "dk": "🇩🇰Danska",
+        "ee": "🇪🇪Estonija",
+        "fi": "🇫🇮Finska",
+        "fr": "🇫🇷Francuska",
+        "de": "🇩🇪Njemačka",
+        "gr": "🇬🇷Grčka",
+        "hu": "🇭🇺Mađarska",
+        "it": "🇮🇹Italija",
+        "lv": "🇱🇻Latvija",
+        "lt": "🇱🇹Litva",
+        "pl": "🇵🇱Poljska",
+        "sk": "🇸🇰Slovačka",
+        "es": "🇪🇸Španjolska",
+        "se": "🇸🇪Švedska",
+        "us": "🇺🇸Sjedinjene Države"
       }
     }
   }
