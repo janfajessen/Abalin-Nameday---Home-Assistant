@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Konfiguratu eguna",
+        "description": "Hautatu jarraitu nahi dituzun egunak dituen herrialdea. Ordu-zona automatikoki hartzen da zure Home Assistant konfiguraziotik.",
+        "data": {
+          "country": "Herrialdea"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Herrialde hau dagoeneko konfiguratuta dago."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Gaur"
+      },
+      "nameday_tomorrow": {
+        "name": "Bihar"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "🇦🇹Austria",
+        "bg": "🇧🇬Bulgaria",
+        "hr": "🇭🇷Kroazia",
+        "cz": "🇨🇿Txekia",
+        "dk": "🇩🇰Danimarka",
+        "ee": "🇪🇪Estonia",
+        "fi": "🇫🇮Finlandia",
+        "fr": "🇫🇷Frantzia",
+        "de": "🇩🇪Alemania",
+        "gr": "🇬🇷Grezia",
+        "hu": "🇭🇺Hungaria",
+        "it": "🇮🇹Italia",
+        "lv": "🇱🇻Letonia",
+        "lt": "🇱🇹Lituania",
+        "pl": "🇵🇱Polonia",
+        "sk": "🇸🇰Eslovakia",
+        "es": "🇪🇸Espainia",
+        "se": "🇸🇪Suedia",
+        "us": "🇺🇸Ameriketako Estatu Batuak"
+      }
+    }
+  }
+}
