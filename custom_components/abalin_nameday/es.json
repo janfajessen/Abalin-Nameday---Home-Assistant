@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Onomástica",
+        "description": "Selecciona el país cuyos santos o nombres del día quieres seguir. La zona horaria se toma automáticamente de tu configuración de Home Assistant.",
+        "data": {
+          "country": "País"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Este país ya está configurado."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Hoy"
+      },
+      "nameday_tomorrow": {
+        "name": "Mañana"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "🇦🇹Austria",
+        "bg": "🇧🇬Bulgaria",
+        "hr": "🇭🇷Croacia",
+        "cz": "🇨🇿República Checa",
+        "dk": "🇩🇰Dinamarca",
+        "ee": "🇪🇪Estonia",
+        "fi": "🇫🇮Finlandia",
+        "fr": "🇫🇷Francia",
+        "de": "🇩🇪Alemania",
+        "gr": "🇬🇷Grecia",
+        "hu": "🇭🇺Hungría",
+        "it": "🇮🇹Italia",
+        "lv": "🇱🇻Letonia",
+        "lt": "🇱🇹Lituania",
+        "pl": "🇵🇱Polonia",
+        "ru": "🇷🇺Rusia",
+        "sk": "🇸🇰Eslovaquia",
+        "es": "🇪🇸España",
+        "se": "🇸🇪Suecia",
+        "us": "🇺🇸Estados Unidos"
+      }
+    }
+  }
+}
