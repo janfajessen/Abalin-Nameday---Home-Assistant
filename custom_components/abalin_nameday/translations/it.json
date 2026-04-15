@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "Configura onomastico",
-        "description": "Seleziona il paese di cui vuoi monitorare gli onomastici. Il fuso orario viene preso automaticamente dalla configurazione di Home Assistant.",
+        "title": "Configura l'onomastico",
+        "description": "Seleziona il paese di cui vuoi tracciare gli onomastici. Il fuso orario viene preso automaticamente dalla tua configurazione di Home Assistant.",
         "data": {
           "country": "Paese"
         }
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Austria",
-        "bg": "Bulgaria",
-        "hr": "Croazia",
-        "cz": "Repubblica Ceca",
-        "dk": "Danimarca",
-        "ee": "Estonia",
-        "fi": "Finlandia",
-        "fr": "Francia",
-        "de": "Germania",
-        "gr": "Grecia",
-        "hu": "Ungheria",
-        "it": "Italia",
-        "lv": "Lettonia",
-        "lt": "Lituania",
-        "pl": "Polonia",
-        "ru": "Russia",
-        "sk": "Slovacchia",
-        "es": "Spagna",
-        "se": "Svezia",
-        "us": "Stati Uniti"
+        "at": "🇦🇹Austria",
+        "bg": "🇧🇬Bulgaria",
+        "hr": "🇭🇷Croazia",
+        "cz": "🇨🇿Repubblica Ceca",
+        "dk": "🇩🇰Danimarca",
+        "ee": "🇪🇪Estonia",
+        "fi": "🇫🇮Finlandia",
+        "fr": "🇫🇷Francia",
+        "de": "🇩🇪Germania",
+        "gr": "🇬🇷Grecia",
+        "hu": "🇭🇺Ungheria",
+        "it": "🇮🇹Italia",
+        "lv": "🇱🇻Lettonia",
+        "lt": "🇱🇹Lituania",
+        "pl": "🇵🇱Polonia",
+        "sk": "🇸🇰Slovacchia",
+        "es": "🇪🇸Spagna",
+        "se": "🇸🇪Svezia",
+        "us": "🇺🇸Stati Uniti"
       }
     }
   }
