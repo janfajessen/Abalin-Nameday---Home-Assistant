@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar o día do santo",
+        "description": "Selecciona o país cuxos días do santo queres seguir. A zona horaria tómase automaticamente da túa configuración de Home Assistant.",
+        "data": {
+          "country": "País"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Este país xa está configurado."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Hoxe"
+      },
+      "nameday_tomorrow": {
+        "name": "Mañá"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "🇦🇹Austria",
+        "bg": "🇧🇬Bulgaria",
+        "hr": "🇭🇷Croacia",
+        "cz": "🇨🇿República Checa",
+        "dk": "🇩🇰Dinamarca",
+        "ee": "🇪🇪Estonia",
+        "fi": "🇫🇮Finlandia",
+        "fr": "🇫🇷Francia",
+        "de": "🇩🇪Alemaña",
+        "gr": "🇬🇷Grecia",
+        "hu": "🇭🇺Hungría",
+        "it": "🇮🇹Italia",
+        "lv": "🇱🇻Letonia",
+        "lt": "🇱🇹Lituania",
+        "pl": "🇵🇱Polonia",
+        "sk": "🇸🇰Eslovaquia",
+        "es": "🇪🇸España",
+        "se": "🇸🇪Suecia",
+        "us": "🇺🇸Estados Unidos"
+      }
+    }
+  }
+}
