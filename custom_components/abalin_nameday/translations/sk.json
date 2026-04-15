@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Nastaviť meniny",
-        "description": "Vyberte krajinu, ktorej meniny chcete sledovať. Časové pásmo sa automaticky prevezme z konfigurácie Home Assistant.",
+        "description": "Vyberte krajinu, ktorej meniny chcete sledovať. Časové pásmo sa automaticky prevezme z vašej konfigurácie Home Assistant.",
         "data": {
           "country": "Krajina"
         }
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Rakúsko",
-        "bg": "Bulharsko",
-        "hr": "Chorvátsko",
-        "cz": "Česká republika",
-        "dk": "Dánsko",
-        "ee": "Estónsko",
-        "fi": "Fínsko",
-        "fr": "Francúzsko",
-        "de": "Nemecko",
-        "gr": "Grécko",
-        "hu": "Maďarsko",
-        "it": "Taliansko",
-        "lv": "Lotyšsko",
-        "lt": "Litva",
-        "pl": "Poľsko",
-        "ru": "Rusko",
-        "sk": "Slovensko",
-        "es": "Španielsko",
-        "se": "Švédsko",
-        "us": "Spojené štáty"
+        "at": "🇦🇹Rakúsko",
+        "bg": "🇧🇬Bulharsko",
+        "hr": "🇭🇷Chorvátsko",
+        "cz": "🇨🇿Česko",
+        "dk": "🇩🇰Dánsko",
+        "ee": "🇪🇪Estónsko",
+        "fi": "🇫🇮Fínsko",
+        "fr": "🇫🇷Francúzsko",
+        "de": "🇩🇪Nemecko",
+        "gr": "🇬🇷Grécko",
+        "hu": "🇭🇺Maďarsko",
+        "it": "🇮🇹Taliansko",
+        "lv": "🇱🇻Lotyšsko",
+        "lt": "🇱🇹Litva",
+        "pl": "🇵🇱Poľsko",
+        "sk": "🇸🇰Slovensko",
+        "es": "🇪🇸Španielsko",
+        "se": "🇸🇪Švédsko",
+        "us": "🇺🇸Spojené štáty"
       }
     }
   }
