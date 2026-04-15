@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Opsæt navnedag",
-        "description": "Vælg det land, hvis navnedage du vil følge. Tidszonen hentes automatisk fra din Home Assistant-konfiguration.",
+        "description": "Vælg det land, hvis navnedage du vil spore. Tidszonen hentes automatisk fra din Home Assistant-konfiguration.",
         "data": {
           "country": "Land"
         }
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Østrig",
-        "bg": "Bulgarien",
-        "hr": "Kroatien",
-        "cz": "Tjekkiet",
-        "dk": "Danmark",
-        "ee": "Estland",
-        "fi": "Finland",
-        "fr": "Frankrig",
-        "de": "Tyskland",
-        "gr": "Grækenland",
-        "hu": "Ungarn",
-        "it": "Italien",
-        "lv": "Letland",
-        "lt": "Litauen",
-        "pl": "Polen",
-        "ru": "Rusland",
-        "sk": "Slovakiet",
-        "es": "Spanien",
-        "se": "Sverige",
-        "us": "USA"
+        "at": "🇦🇹Østrig",
+        "bg": "🇧🇬Bulgarien",
+        "hr": "🇭🇷Kroatien",
+        "cz": "🇨🇿Tjekkiet",
+        "dk": "🇩🇰Danmark",
+        "ee": "🇪🇪Estland",
+        "fi": "🇫🇮Finland",
+        "fr": "🇫🇷Frankrig",
+        "de": "🇩🇪Tyskland",
+        "gr": "🇬🇷Grækenland",
+        "hu": "🇭🇺Ungarn",
+        "it": "🇮🇹Italien",
+        "lv": "🇱🇻Letland",
+        "lt": "🇱🇹Litauen",
+        "pl": "🇵🇱Polen",
+        "sk": "🇸🇰Slovakiet",
+        "es": "🇪🇸Spanien",
+        "se": "🇸🇪Sverige",
+        "us": "🇺🇸USA"
       }
     }
   }
