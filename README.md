@@ -43,15 +43,14 @@ Name days are a wonderful tradition across much of Europe and beyond — a secon
 |---|---|---|---|
 | <sub>🇦🇹 Österreich</sub> | <sub>`at`</sub> | <sub>🇱🇹 Lietuva</sub> | <sub>`lt`</sub> |
 | <sub>🇧🇬 България</sub> | <sub>`bg`</sub> | <sub>🇵🇱 Polska</sub> | <sub>`pl`</sub> |
-| <sub>🇭🇷 Hrvatska</sub> | <sub>`hr`</sub> | <sub></sub> | <sub></sub> |
-| <sub>🇨🇿 Česká republika</sub> | <sub>`cz`</sub> | <sub>🇸🇰 Slovensko</sub> | <sub>`sk`</sub> |
-| <sub>🇩🇰 Danmark</sub> | <sub>`dk`</sub> | <sub>🇪🇸 España/Espanya/Espainia</sub> | <sub>`es`</sub> |
-| <sub>🇪🇪 Eesti</sub> | <sub>`ee`</sub> | <sub>🇸🇪 Sverige</sub> | <sub>`se`</sub> |
+| <sub>🇭🇷 Hrvatska</sub> | <sub>`hr`</sub> |  <sub>🇸🇰 Slovensko</sub> | <sub>`sk`</sub> |
+| <sub>🇨🇿 Česká republika</sub> | <sub>`cz`</sub> | <sub>🇪🇸 España/Espanya/Espainia</sub> | <sub>`es`</sub> |
+| <sub>🇩🇰 Danmark</sub> | <sub>`dk`</sub> | <sub>🇸🇪 Sverige</sub> | <sub>`se`</sub> |
+| <sub>🇪🇪 Eesti</sub> | <sub>`ee`</sub> |<sub>🇩🇪 Deutschland</sub> | <sub>`de`</sub> |
 | <sub>🇫🇮 Suomi / Finland</sub> | <sub>`fi`</sub> | <sub>🇺🇸 United States</sub> | <sub>`us`</sub> |
-| <sub>🇫🇷 France</sub> | <sub>`fr`</sub> | <sub>🇩🇪 Deutschland</sub> | <sub>`de`</sub> |
-| <sub>🇬🇷 Ελλάδα</sub> | <sub>`gr`</sub> | <sub>🇭🇺 Magyarország</sub> | <sub>`hu`</sub> |
-| <sub>🇮🇹 Italia</sub> | <sub>`it`</sub> | <sub>🇱🇻 Latvija</sub> | <sub>`lv`</sub> |
-
+| <sub>🇫🇷 France</sub> | <sub>`fr`</sub> |  <sub>🇭🇺 Magyarország</sub> | <sub>`hu`</sub> |
+| <sub>🇬🇷 Ελλάδα</sub> | <sub>`gr`</sub> | <sub>🇱🇻 Latvija</sub> | <sub>`lv`</sub> |
+| <sub>🇮🇹 Italia</sub> | <sub>`it`</sub> |
 ---
 
 
