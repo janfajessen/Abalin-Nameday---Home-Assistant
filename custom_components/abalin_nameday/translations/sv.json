@@ -2,15 +2,15 @@
   "config": {
     "step": {
       "user": {
-        "title": "Ställ in namnsdagar",
-        "description": "Välj landet vars namnsdagar du vill följa. Tidszonen hämtas automatiskt från din Home Assistant-konfiguration.",
+        "title": "Konfigurera namnsdag",
+        "description": "Välj det land vars namnsdagar du vill spåra. Tidszonen hämtas automatiskt från din Home Assistant-konfiguration.",
         "data": {
           "country": "Land"
         }
       }
     },
     "abort": {
-      "already_configured": "Detta land är redan konfigurerat."
+      "already_configured": "Det här landet är redan konfigurerat."
     }
   },
   "entity": {
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Österrike",
-        "bg": "Bulgarien",
-        "hr": "Kroatien",
-        "cz": "Tjeckien",
-        "dk": "Danmark",
-        "ee": "Estland",
-        "fi": "Finland",
-        "fr": "Frankrike",
-        "de": "Tyskland",
-        "gr": "Grekland",
-        "hu": "Ungern",
-        "it": "Italien",
-        "lv": "Lettland",
-        "lt": "Litauen",
-        "pl": "Polen",
-        "ru": "Ryssland",
-        "sk": "Slovakien",
-        "es": "Spanien",
-        "se": "Sverige",
-        "us": "USA"
+        "at": "🇦🇹Österrike",
+        "bg": "🇧🇬Bulgarien",
+        "hr": "🇭🇷Kroatien",
+        "cz": "🇨🇿Tjeckien",
+        "dk": "🇩🇰Danmark",
+        "ee": "🇪🇪Estland",
+        "fi": "🇫🇮Finland",
+        "fr": "🇫🇷Frankrike",
+        "de": "🇩🇪Tyskland",
+        "gr": "🇬🇷Grekland",
+        "hu": "🇭🇺Ungern",
+        "it": "🇮🇹Italien",
+        "lv": "🇱🇻Lettland",
+        "lt": "🇱🇹Litauen",
+        "pl": "🇵🇱Polen",
+        "sk": "🇸🇰Slovakien",
+        "es": "🇪🇸Spanien",
+        "se": "🇸🇪Sverige",
+        "us": "🇺🇸USA"
       }
     }
   }
