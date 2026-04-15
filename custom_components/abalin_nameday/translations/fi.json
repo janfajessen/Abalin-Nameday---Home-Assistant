@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "Määritä nimipäivät",
-        "description": "Valitse maa, jonka nimipäiviä haluat seurata. Aikavyöhyke haetaan automaattisesti Home Assistant -määrityksestä.",
+        "title": "Aseta nimipäivä",
+        "description": "Valitse maa, jonka nimipäiviä haluat seurata. Aikavyöhyke otetaan automaattisesti Home Assistant -määrityksestäsi.",
         "data": {
           "country": "Maa"
         }
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Itävalta",
-        "bg": "Bulgaria",
-        "hr": "Kroatia",
-        "cz": "Tšekki",
-        "dk": "Tanska",
-        "ee": "Viro",
-        "fi": "Suomi",
-        "fr": "Ranska",
-        "de": "Saksa",
-        "gr": "Kreikka",
-        "hu": "Unkari",
-        "it": "Italia",
-        "lv": "Latvia",
-        "lt": "Liettua",
-        "pl": "Puola",
-        "ru": "Venäjä",
-        "sk": "Slovakia",
-        "es": "Espanja",
-        "se": "Ruotsi",
-        "us": "Yhdysvallat"
+        "at": "🇦🇹Itävalta",
+        "bg": "🇧🇬Bulgaria",
+        "hr": "🇭🇷Kroatia",
+        "cz": "🇨🇿Tšekki",
+        "dk": "🇩🇰Tanska",
+        "ee": "🇪🇪Viro",
+        "fi": "🇫🇮Suomi",
+        "fr": "🇫🇷Ranska",
+        "de": "🇩🇪Saksa",
+        "gr": "🇬🇷Kreikka",
+        "hu": "🇭🇺Unkari",
+        "it": "🇮🇹Italia",
+        "lv": "🇱🇻Latvia",
+        "lt": "🇱🇹Liettua",
+        "pl": "🇵🇱Puola",
+        "sk": "🇸🇰Slovakia",
+        "es": "🇪🇸Espanja",
+        "se": "🇸🇪Ruotsi",
+        "us": "🇺🇸Yhdysvallat"
       }
     }
   }
