@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "Iestatīt vārda dienas",
-        "description": "Izvēlieties valsti, kuras vārda dienas vēlaties sekot. Laika josla tiek automātiski ņemta no Home Assistant konfigurācijas.",
+        "title": "Iestatīt vārda dienu",
+        "description": "Izvēlieties valsti, kuras vārda dienas vēlaties izsekot. Laika josla tiek automātiski ņemta no jūsu Home Assistant konfigurācijas.",
         "data": {
           "country": "Valsts"
         }
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Austrija",
-        "bg": "Bulgārija",
-        "hr": "Horvātija",
-        "cz": "Čehija",
-        "dk": "Dānija",
-        "ee": "Igaunija",
-        "fi": "Somija",
-        "fr": "Francija",
-        "de": "Vācija",
-        "gr": "Grieķija",
-        "hu": "Ungārija",
-        "it": "Itālija",
-        "lv": "Latvija",
-        "lt": "Lietuva",
-        "pl": "Polija",
-        "ru": "Krievija",
-        "sk": "Slovākija",
-        "es": "Spānija",
-        "se": "Zviedrija",
-        "us": "Amerikas Savienotās Valstis"
+        "at": "🇦🇹Austrija",
+        "bg": "🇧🇬Bulgārija",
+        "hr": "🇭🇷Horvātija",
+        "cz": "🇨🇿Čehija",
+        "dk": "🇩🇰Dānija",
+        "ee": "🇪🇪Igaunija",
+        "fi": "🇫🇮Somija",
+        "fr": "🇫🇷Francija",
+        "de": "🇩🇪Vācija",
+        "gr": "🇬🇷Grieķija",
+        "hu": "🇭🇺Ungārija",
+        "it": "🇮🇹Itālija",
+        "lv": "🇱🇻Latvija",
+        "lt": "🇱🇹Lietuva",
+        "pl": "🇵🇱Polija",
+        "sk": "🇸🇰Slovākija",
+        "es": "🇪🇸Spānija",
+        "se": "🇸🇪Zviedrija",
+        "us": "🇺🇸Amerikas Savienotās Valstis"
       }
     }
   }
