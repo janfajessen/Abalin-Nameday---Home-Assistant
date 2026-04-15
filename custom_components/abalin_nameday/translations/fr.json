@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurer les fêtes",
+        "description": "Sélectionnez le pays dont vous souhaitez suivre les fêtes. Le fuseau horaire est automatiquement récupéré depuis votre configuration Home Assistant.",
+        "data": {
+          "country": "Pays"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ce pays est déjà configuré."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Aujourd'hui"
+      },
+      "nameday_tomorrow": {
+        "name": "Demain"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Autriche",
+        "bg": "Bulgarie",
+        "hr": "Croatie",
+        "cz": "République tchèque",
+        "dk": "Danemark",
+        "ee": "Estonie",
+        "fi": "Finlande",
+        "fr": "France",
+        "de": "Allemagne",
+        "gr": "Grèce",
+        "hu": "Hongrie",
+        "it": "Italie",
+        "lv": "Lettonie",
+        "lt": "Lituanie",
+        "pl": "Pologne",
+        "ru": "Russie",
+        "sk": "Slovaquie",
+        "es": "Espagne",
+        "se": "Suède",
+        "us": "États-Unis"
+      }
+    }
+  }
+}

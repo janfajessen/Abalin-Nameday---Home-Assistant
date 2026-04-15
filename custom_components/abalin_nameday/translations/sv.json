@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ställ in namnsdagar",
+        "description": "Välj landet vars namnsdagar du vill följa. Tidszonen hämtas automatiskt från din Home Assistant-konfiguration.",
+        "data": {
+          "country": "Land"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Detta land är redan konfigurerat."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Idag"
+      },
+      "nameday_tomorrow": {
+        "name": "Imorgon"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Österrike",
+        "bg": "Bulgarien",
+        "hr": "Kroatien",
+        "cz": "Tjeckien",
+        "dk": "Danmark",
+        "ee": "Estland",
+        "fi": "Finland",
+        "fr": "Frankrike",
+        "de": "Tyskland",
+        "gr": "Grekland",
+        "hu": "Ungern",
+        "it": "Italien",
+        "lv": "Lettland",
+        "lt": "Litauen",
+        "pl": "Polen",
+        "ru": "Ryssland",
+        "sk": "Slovakien",
+        "es": "Spanien",
+        "se": "Sverige",
+        "us": "USA"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nustatyti vardadienius",
+        "description": "Pasirinkite šalį, kurios vardadienius norite stebėti. Laiko juosta automatiškai paimama iš Home Assistant konfigūracijos.",
+        "data": {
+          "country": "Šalis"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ši šalis jau sukonfigūruota."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Šiandien"
+      },
+      "nameday_tomorrow": {
+        "name": "Rytoj"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Austrija",
+        "bg": "Bulgarija",
+        "hr": "Kroatija",
+        "cz": "Čekija",
+        "dk": "Danija",
+        "ee": "Estija",
+        "fi": "Suomija",
+        "fr": "Prancūzija",
+        "de": "Vokietija",
+        "gr": "Graikija",
+        "hu": "Vengrija",
+        "it": "Italija",
+        "lv": "Latvija",
+        "lt": "Lietuva",
+        "pl": "Lenkija",
+        "ru": "Rusija",
+        "sk": "Slovakija",
+        "es": "Ispanija",
+        "se": "Švedija",
+        "us": "Jungtinės Valstijos"
+      }
+    }
+  }
+}

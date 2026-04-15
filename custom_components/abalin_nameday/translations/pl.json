@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Skonfiguruj imieniny",
+        "description": "Wybierz kraj, którego imieniny chcesz śledzić. Strefa czasowa jest pobierana automatycznie z konfiguracji Home Assistant.",
+        "data": {
+          "country": "Kraj"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ten kraj jest już skonfigurowany."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Dzisiaj"
+      },
+      "nameday_tomorrow": {
+        "name": "Jutro"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Austria",
+        "bg": "Bułgaria",
+        "hr": "Chorwacja",
+        "cz": "Czechy",
+        "dk": "Dania",
+        "ee": "Estonia",
+        "fi": "Finlandia",
+        "fr": "Francja",
+        "de": "Niemcy",
+        "gr": "Grecja",
+        "hu": "Węgry",
+        "it": "Włochy",
+        "lv": "Łotwa",
+        "lt": "Litwa",
+        "pl": "Polska",
+        "ru": "Rosja",
+        "sk": "Słowacja",
+        "es": "Hiszpania",
+        "se": "Szwecja",
+        "us": "Stany Zjednoczone"
+      }
+    }
+  }
+}

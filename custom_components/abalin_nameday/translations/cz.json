@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nastavit svátek",
+        "description": "Vyberte zemi, jejíž svátky chcete sledovat. Časové pásmo se automaticky převezme z konfigurace Home Assistant.",
+        "data": {
+          "country": "Země"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Tato země je již nakonfigurována."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Dnes"
+      },
+      "nameday_tomorrow": {
+        "name": "Zítra"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Rakousko",
+        "bg": "Bulharsko",
+        "hr": "Chorvatsko",
+        "cz": "Česká republika",
+        "dk": "Dánsko",
+        "ee": "Estonsko",
+        "fi": "Finsko",
+        "fr": "Francie",
+        "de": "Německo",
+        "gr": "Řecko",
+        "hu": "Maďarsko",
+        "it": "Itálie",
+        "lv": "Lotyšsko",
+        "lt": "Litva",
+        "pl": "Polsko",
+        "ru": "Rusko",
+        "sk": "Slovensko",
+        "es": "Španělsko",
+        "se": "Švédsko",
+        "us": "Spojené státy"
+      }
+    }
+  }
+}

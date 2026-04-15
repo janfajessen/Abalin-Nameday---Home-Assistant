@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nastaviť meniny",
+        "description": "Vyberte krajinu, ktorej meniny chcete sledovať. Časové pásmo sa automaticky prevezme z konfigurácie Home Assistant.",
+        "data": {
+          "country": "Krajina"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Táto krajina je už nakonfigurovaná."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Dnes"
+      },
+      "nameday_tomorrow": {
+        "name": "Zajtra"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Rakúsko",
+        "bg": "Bulharsko",
+        "hr": "Chorvátsko",
+        "cz": "Česká republika",
+        "dk": "Dánsko",
+        "ee": "Estónsko",
+        "fi": "Fínsko",
+        "fr": "Francúzsko",
+        "de": "Nemecko",
+        "gr": "Grécko",
+        "hu": "Maďarsko",
+        "it": "Taliansko",
+        "lv": "Lotyšsko",
+        "lt": "Litva",
+        "pl": "Poľsko",
+        "ru": "Rusko",
+        "sk": "Slovensko",
+        "es": "Španielsko",
+        "se": "Švédsko",
+        "us": "Spojené štáty"
+      }
+    }
+  }
+}

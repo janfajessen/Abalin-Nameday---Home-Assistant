@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Postavi imendane",
+        "description": "Odaberite državu čije imendane želite pratiti. Vremenska zona automatski se preuzima iz Home Assistant konfiguracije.",
+        "data": {
+          "country": "Država"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ova država je već konfigurirana."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Danas"
+      },
+      "nameday_tomorrow": {
+        "name": "Sutra"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Austrija",
+        "bg": "Bugarska",
+        "hr": "Hrvatska",
+        "cz": "Češka",
+        "dk": "Danska",
+        "ee": "Estonija",
+        "fi": "Finska",
+        "fr": "Francuska",
+        "de": "Njemačka",
+        "gr": "Grčka",
+        "hu": "Mađarska",
+        "it": "Italija",
+        "lv": "Latvija",
+        "lt": "Litva",
+        "pl": "Poljska",
+        "ru": "Rusija",
+        "sk": "Slovačka",
+        "es": "Španjolska",
+        "se": "Švedska",
+        "us": "Sjedinjene Američke Države"
+      }
+    }
+  }
+}

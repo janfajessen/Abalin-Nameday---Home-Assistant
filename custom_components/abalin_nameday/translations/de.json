@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Namenstag einrichten",
+        "description": "Wählen Sie das Land aus, dessen Namenstage Sie verfolgen möchten. Die Zeitzone wird automatisch aus Ihrer Home Assistant-Konfiguration übernommen.",
+        "data": {
+          "country": "Land"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Dieses Land ist bereits konfiguriert."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Heute"
+      },
+      "nameday_tomorrow": {
+        "name": "Morgen"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Österreich",
+        "bg": "Bulgarien",
+        "hr": "Kroatien",
+        "cz": "Tschechien",
+        "dk": "Dänemark",
+        "ee": "Estland",
+        "fi": "Finnland",
+        "fr": "Frankreich",
+        "de": "Deutschland",
+        "gr": "Griechenland",
+        "hu": "Ungarn",
+        "it": "Italien",
+        "lv": "Lettland",
+        "lt": "Litauen",
+        "pl": "Polen",
+        "ru": "Russland",
+        "sk": "Slowakei",
+        "es": "Spanien",
+        "se": "Schweden",
+        "us": "Vereinigte Staaten"
+      }
+    }
+  }
+}

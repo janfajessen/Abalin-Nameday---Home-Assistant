@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Névnapok beállítása",
+        "description": "Válaszd ki az országot, amelynek névnapjait követni szeretnéd. Az időzóna automatikusan a Home Assistant konfigurációból kerül beállításra.",
+        "data": {
+          "country": "Ország"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Ez az ország már be van állítva."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Ma"
+      },
+      "nameday_tomorrow": {
+        "name": "Holnap"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Ausztria",
+        "bg": "Bulgária",
+        "hr": "Horvátország",
+        "cz": "Csehország",
+        "dk": "Dánia",
+        "ee": "Észtország",
+        "fi": "Finnország",
+        "fr": "Franciaország",
+        "de": "Németország",
+        "gr": "Görögország",
+        "hu": "Magyarország",
+        "it": "Olaszország",
+        "lv": "Lettország",
+        "lt": "Litvánia",
+        "pl": "Lengyelország",
+        "ru": "Oroszország",
+        "sk": "Szlovákia",
+        "es": "Spanyolország",
+        "se": "Svédország",
+        "us": "Egyesült Államok"
+      }
+    }
+  }
+}

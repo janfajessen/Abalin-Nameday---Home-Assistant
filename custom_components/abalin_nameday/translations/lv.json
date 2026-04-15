@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Iestatīt vārda dienas",
+        "description": "Izvēlieties valsti, kuras vārda dienas vēlaties sekot. Laika josla tiek automātiski ņemta no Home Assistant konfigurācijas.",
+        "data": {
+          "country": "Valsts"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Šī valsts jau ir konfigurēta."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Šodien"
+      },
+      "nameday_tomorrow": {
+        "name": "Rīt"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Austrija",
+        "bg": "Bulgārija",
+        "hr": "Horvātija",
+        "cz": "Čehija",
+        "dk": "Dānija",
+        "ee": "Igaunija",
+        "fi": "Somija",
+        "fr": "Francija",
+        "de": "Vācija",
+        "gr": "Grieķija",
+        "hu": "Ungārija",
+        "it": "Itālija",
+        "lv": "Latvija",
+        "lt": "Lietuva",
+        "pl": "Polija",
+        "ru": "Krievija",
+        "sk": "Slovākija",
+        "es": "Spānija",
+        "se": "Zviedrija",
+        "us": "Amerikas Savienotās Valstis"
+      }
+    }
+  }
+}
