@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Àustria",
-        "bg": "Bulgària",
-        "hr": "Croàcia",
-        "cz": "República Txeca",
-        "dk": "Dinamarca",
-        "ee": "Estònia",
-        "fi": "Finlàndia",
-        "fr": "França",
-        "de": "Alemanya",
-        "gr": "Grècia",
-        "hu": "Hongria",
-        "it": "Itàlia",
-        "lv": "Letònia",
-        "lt": "Lituània",
-        "pl": "Polònia",
-        "ru": "Rússia",
-        "sk": "Eslovàquia",
-        "es": "Espanya",
-        "se": "Suècia",
-        "us": "Estats Units"
+        "at": "🇦🇹Àustria",
+        "bg": "🇧🇬Bulgària",
+        "hr": "🇭🇷Croàcia",
+        "cz": "🇨🇿República Txeca",
+        "dk": "🇩🇰Dinamarca",
+        "ee": "🇪🇪Estònia",
+        "fi": "🇫🇮Finlàndia",
+        "fr": "🇫🇷França",
+        "de": "🇩🇪Alemanya",
+        "gr": "🇬🇷Grècia",
+        "hu": "🇭🇺Hongria",
+        "it": "🇮🇹Itàlia",
+        "lv": "🇱🇻Letònia",
+        "lt": "🇱🇹Lituània",
+        "pl": "🇵🇱Polònia",
+        "sk": "🇸🇰Eslovàquia",
+        "es": "🇪🇸Espanya",
+        "se": "🇸🇪Suècia",
+        "us": "🇺🇸Estats Units"
       }
     }
   }
