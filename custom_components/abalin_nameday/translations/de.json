@@ -3,7 +3,7 @@
     "step": {
       "user": {
         "title": "Namenstag einrichten",
-        "description": "Wählen Sie das Land aus, dessen Namenstage Sie verfolgen möchten. Die Zeitzone wird automatisch aus Ihrer Home Assistant-Konfiguration übernommen.",
+        "description": "Wählen Sie das Land, dessen Namenstage Sie verfolgen möchten. Die Zeitzone wird automatisch aus Ihrer Home Assistant-Konfiguration übernommen.",
         "data": {
           "country": "Land"
         }
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Österreich",
-        "bg": "Bulgarien",
-        "hr": "Kroatien",
-        "cz": "Tschechien",
-        "dk": "Dänemark",
-        "ee": "Estland",
-        "fi": "Finnland",
-        "fr": "Frankreich",
-        "de": "Deutschland",
-        "gr": "Griechenland",
-        "hu": "Ungarn",
-        "it": "Italien",
-        "lv": "Lettland",
-        "lt": "Litauen",
-        "pl": "Polen",
-        "ru": "Russland",
-        "sk": "Slowakei",
-        "es": "Spanien",
-        "se": "Schweden",
-        "us": "Vereinigte Staaten"
+        "at": "🇦🇹Österreich",
+        "bg": "🇧🇬Bulgarien",
+        "hr": "🇭🇷Kroatien",
+        "cz": "🇨🇿Tschechien",
+        "dk": "🇩🇰Dänemark",
+        "ee": "🇪🇪Estland",
+        "fi": "🇫🇮Finnland",
+        "fr": "🇫🇷Frankreich",
+        "de": "🇩🇪Deutschland",
+        "gr": "🇬🇷Griechenland",
+        "hu": "🇭🇺Ungarn",
+        "it": "🇮🇹Italien",
+        "lv": "🇱🇻Lettland",
+        "lt": "🇱🇹Litauen",
+        "pl": "🇵🇱Polen",
+        "sk": "🇸🇰Slowakei",
+        "es": "🇪🇸Spanien",
+        "se": "🇸🇪Schweden",
+        "us": "🇺🇸Vereinigte Staaten"
       }
     }
   }
