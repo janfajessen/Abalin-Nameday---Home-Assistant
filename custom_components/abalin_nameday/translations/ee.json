@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "Seadista nimepäevad",
-        "description": "Valige riik, mille nimepäevi soovite jälgida. Ajavöönd võetakse automaatselt Home Assistant konfiguratsioonist.",
+        "title": "Seadista nimepäev",
+        "description": "Valige riik, mille nimepäevi soovite jälgida. Ajavöönd võetakse automaatselt teie Home Assistanti konfiguratsioonist.",
         "data": {
           "country": "Riik"
         }
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Austria",
-        "bg": "Bulgaaria",
-        "hr": "Horvaatia",
-        "cz": "Tšehhi",
-        "dk": "Taani",
-        "ee": "Eesti",
-        "fi": "Soome",
-        "fr": "Prantsusmaa",
-        "de": "Saksamaa",
-        "gr": "Kreeka",
-        "hu": "Ungari",
-        "it": "Itaalia",
-        "lv": "Läti",
-        "lt": "Leedu",
-        "pl": "Poola",
-        "ru": "Venemaa",
-        "sk": "Slovakkia",
-        "es": "Hispaania",
-        "se": "Rootsi",
-        "us": "Ameerika Ühendriigid"
+        "at": "🇦🇹Austria",
+        "bg": "🇧🇬Bulgaaria",
+        "hr": "🇭🇷Horvaatia",
+        "cz": "🇨🇿Tšehhi",
+        "dk": "🇩🇰Taani",
+        "ee": "🇪🇪Eesti",
+        "fi": "🇫🇮Soome",
+        "fr": "🇫🇷Prantsusmaa",
+        "de": "🇩🇪Saksamaa",
+        "gr": "🇬🇷Kreeka",
+        "hu": "🇭🇺Ungari",
+        "it": "🇮🇹Itaalia",
+        "lv": "🇱🇻Läti",
+        "lt": "🇱🇹Leedu",
+        "pl": "🇵🇱Poola",
+        "sk": "🇸🇰Slovakkia",
+        "es": "🇪🇸Hispaania",
+        "se": "🇸🇪Rootsi",
+        "us": "🇺🇸Ameerika Ühendriigid"
       }
     }
   }
