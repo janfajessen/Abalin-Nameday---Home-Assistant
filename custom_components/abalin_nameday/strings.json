@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Name Day",
+        "description": "Select the country whose name days you want to track. The timezone is taken automatically from your Home Assistant configuration.",
+        "data": {
+          "country": "Country"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This country is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "nameday_today": {
+        "name": "Today"
+      },
+      "nameday_tomorrow": {
+        "name": "Tomorrow"
+      }
+    }
+  },
+  "selector": {
+    "country": {
+      "options": {
+        "at": "Austria",
+        "bg": "Bulgaria",
+        "hr": "Croatia",
+        "cz": "Czech Republic",
+        "dk": "Denmark",
+        "ee": "Estonia",
+        "fi": "Finland",
+        "fr": "France",
+        "de": "Germany",
+        "gr": "Greece",
+        "hu": "Hungary",
+        "it": "Italy",
+        "lv": "Latvia",
+        "lt": "Lithuania",
+        "pl": "Poland",
+        "ru": "Russia",
+        "sk": "Slovakia",
+        "es": "Spain",
+        "se": "Sweden",
+        "us": "United States"
+      }
+    }
+  }
+}

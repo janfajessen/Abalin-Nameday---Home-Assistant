@@ -1,0 +1,13 @@
+{
+    "domain": "abalin_nameday",
+    "name": "Abalin Name Day",
+    "documentation": "https://github.com/janfajessen/abalin-nameday",
+    "issue_tracker": "https://github.com/janfajessen/abalin-nameday/issues",
+    "dependencies": [],
+    "codeowners": ["@janfajessen, @viktak"],
+    "requirements": [],
+    "version": "1.0.5",
+    "config_flow": true,
+    "iot_class": "cloud_polling"
+}
+

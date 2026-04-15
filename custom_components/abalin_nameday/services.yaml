@@ -1,0 +1,75 @@
+get_nameday_for_date:
+  name: Get nameday for date
+  description: >
+    Returns the name day(s) for a specific day and month.
+    If no country is specified, all 20 supported countries are returned.
+  fields:
+    day:
+      name: Day
+      description: Day of the month (1–31)
+      required: true
+      example: 25
+      selector:
+        number:
+          min: 1
+          max: 31
+          mode: box
+    month:
+      name: Month
+      description: Month number (1–12)
+      required: true
+      example: 12
+      selector:
+        number:
+          min: 1
+          max: 12
+          mode: box
+    country:
+      name: Country
+      description: "Optional — filter results to a specific country. Leave empty to get all countries."
+      required: false
+      example: es
+      selector:
+        select:
+          options:
+            - label: Austria
+              value: at
+            - label: Bulgaria
+              value: bg
+            - label: Croatia
+              value: hr
+            - label: Czech Republic
+              value: cz
+            - label: Denmark
+              value: dk
+            - label: Estonia
+              value: ee
+            - label: Finland
+              value: fi
+            - label: France
+              value: fr
+            - label: Germany
+              value: de
+            - label: Greece
+              value: gr
+            - label: Hungary
+              value: hu
+            - label: Italy
+              value: it
+            - label: Latvia
+              value: lv
+            - label: Lithuania
+              value: lt
+            - label: Poland
+              value: pl
+            - label: Russia
+              value: ru
+            - label: Slovakia
+              value: sk
+            - label: Spain
+              value: es
+            - label: Sweden
+              value: se
+            - label: United States
+              value: us
+              
