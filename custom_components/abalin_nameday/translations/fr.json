@@ -2,8 +2,8 @@
   "config": {
     "step": {
       "user": {
-        "title": "Configurer les fêtes",
-        "description": "Sélectionnez le pays dont vous souhaitez suivre les fêtes. Le fuseau horaire est automatiquement récupéré depuis votre configuration Home Assistant.",
+        "title": "Configurer la fête du prénom",
+        "description": "Sélectionnez le pays dont vous souhaitez suivre les fêtes du prénom. Le fuseau horaire est automatiquement extrait de votre configuration Home Assistant.",
         "data": {
           "country": "Pays"
         }
@@ -26,26 +26,25 @@
   "selector": {
     "country": {
       "options": {
-        "at": "Autriche",
-        "bg": "Bulgarie",
-        "hr": "Croatie",
-        "cz": "République tchèque",
-        "dk": "Danemark",
-        "ee": "Estonie",
-        "fi": "Finlande",
-        "fr": "France",
-        "de": "Allemagne",
-        "gr": "Grèce",
-        "hu": "Hongrie",
-        "it": "Italie",
-        "lv": "Lettonie",
-        "lt": "Lituanie",
-        "pl": "Pologne",
-        "ru": "Russie",
-        "sk": "Slovaquie",
-        "es": "Espagne",
-        "se": "Suède",
-        "us": "États-Unis"
+        "at": "🇦🇹Autriche",
+        "bg": "🇧🇬Bulgarie",
+        "hr": "🇭🇷Croatie",
+        "cz": "🇨🇿République tchèque",
+        "dk": "🇩🇰Danemark",
+        "ee": "🇪🇪Estonie",
+        "fi": "🇫🇮Finlande",
+        "fr": "🇫🇷France",
+        "de": "🇩🇪Allemagne",
+        "gr": "🇬🇷Grèce",
+        "hu": "🇭🇺Hongrie",
+        "it": "🇮🇹Italie",
+        "lv": "🇱🇻Lettonie",
+        "lt": "🇱🇹Lituanie",
+        "pl": "🇵🇱Pologne",
+        "sk": "🇸🇰Slovaquie",
+        "es": "🇪🇸Espagne",
+        "se": "🇸🇪Suède",
+        "us": "🇺🇸États-Unis"
       }
     }
   }
