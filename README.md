@@ -263,7 +263,7 @@ This integration uses the [Abalin Name Day API V2](https://nameday.abalin.net) â
 
 ## ðŸŒ± Contributing
 
-Pull requests are welcome! To add a new translation, copy `translations/en.json`, translate the strings, and submit a PR.
+Pull requests are welcome!
 
 ---
 
