@@ -2,7 +2,7 @@
 
 # Abalin Name Day <br> Home Assistant Integration
 
-<img src="brands/icon@2x.png" width="150"/>
+<img src="https://github.com/janfajessen/Abalin-Nameday---Home-Assistant/blob/353d58ea8d9ba5f4a876d1cff7fadd560ea1e653/brand/icon%402x.png" width="250"/>
 
 
 ![Version](https://img.shields.io/badge/version-2.1.0-blue?style=for-the-badge)
@@ -77,7 +77,7 @@ Name days are a wonderful tradition across much of Europe and beyond — a secon
 3. Install **Abalin Name Day**
 4. Restart Home Assistant
 
-<img src="brands/icon.png" width="50"/>
+<img src="https://github.com/janfajessen/Abalin-Nameday---Home-Assistant/blob/353d58ea8d9ba5f4a876d1cff7fadd560ea1e653/brand/icon%402x.png" width="100"/>
 
 ### Manual
 
