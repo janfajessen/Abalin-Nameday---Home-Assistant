@@ -1,8 +1,8 @@
 {
     "domain": "abalin_nameday",
     "name": "Abalin Name Day",
-    "documentation": "https://github.com/janfajessen/abalin-nameday",
-    "issue_tracker": "https://github.com/janfajessen/abalin-nameday/issues",
+    "documentation": "https://github.com/janfajessen/Abalin-Nameday---Home-Assistant",
+    "issue_tracker": "https://github.com/janfajessen/Abalin-Nameday---Home-Assistanty/issues",
     "dependencies": [],
     "codeowners": ["@janfajessen, @viktak"],
     "requirements": [],
