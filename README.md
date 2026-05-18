@@ -5,7 +5,7 @@
 <img src="https://github.com/janfajessen/Abalin-Nameday---Home-Assistant/blob/353d58ea8d9ba5f4a876d1cff7fadd560ea1e653/brand/icon%402x.png" width="250"/>
 
 
-![Version](https://img.shields.io/badge/version-2.1.0-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-2.1.3-blue?style=for-the-badge)
 ![HA](https://img.shields.io/badge/Home%20Assistant-2024.3+-orange?style=for-the-badge&logo=home-assistant)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=for-the-badge&logo=python)
